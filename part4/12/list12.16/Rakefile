@@ -1,0 +1,23 @@
+# coding: utf-8
+
+namespace :make do
+  namespace :report do
+    desc '日次食事レポート作成'
+    task :daily_report do
+    end
+
+    desc '週次食事レポート作成'
+    task :weekly_report do
+    end
+  end
+
+  namespace :history do
+    desc 'メニュー履歴作成'
+    task :menu do
+    end
+
+    desc '摂取カロリー履歴作成'
+    task :calorie do
+    end
+  end
+end

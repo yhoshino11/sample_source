@@ -1,0 +1,4 @@
+desc 'タスクの説明を書く'
+task :task_name do
+  puts 'Rake task'
+end

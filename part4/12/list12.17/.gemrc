@@ -1,0 +1,2 @@
+gem: --no-rdoc --no-ri # インストール時にrdoc,riを生成しない
+:verbose: true # 詳細メッセージの表示
